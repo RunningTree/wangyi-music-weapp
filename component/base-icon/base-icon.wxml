@@ -1,0 +1,43 @@
+<view class="i-class icon-wrap icon-wrap-layout-{{layout}}">
+  <view class="icon-block">
+    <block wx:if='{{type=="img"}}'>
+      <view class="icon-img icon-mold-{{mold}} icon-img-size-{{size}}" style="background:url({{src}})"></view>
+    </block>
+
+    <block wx:if='{{type=="icon"}}'>
+      <view class="flex-cc icon-font icon-mold-{{mold}} {{fontSize?'':'icon-iconfont-size-'+size}}" style='{{fontSize}}'>
+        <view class="iconfont {{src}}"></view>
+      </view>
+    </block>
+
+    <block wx:if='{{type=="text"}}'>
+      <view class="flex-cc icon-text icon-mold-{{mold}} {{fontSize?'':'icon-size-'+size}}" style='{{fontSize}}'>
+        <slot name="short-name"></slot>
+        <view class="">
+            {{shortName}}
+        </view>
+      </view>
+    </block>
+
+    <view class="icon-top-tag">
+         <slot name="top-tag"></slot>
+      <tag wx:if='{{count}}' value='{{count}}'></tag>
+    </view>
+
+    <view class="icon-bottom-tag">
+      <slot name="bottom-tag"></slot>
+      <!-- <tag wx:if='{{count}}' value='{{count}}'></tag> -->
+    </view>
+  </view>
+  <view class="icon-info-block">
+    <view class="info-text">
+      <slot name="title"></slot>
+    </view>
+    <view class="info-tip">
+      <slot name="tip"></slot>
+    </view>
+    <view class="info-assist">
+      <slot name="assist"></slot>
+    </view>
+  </view>
+</view>

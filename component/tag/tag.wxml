@@ -1,0 +1,9 @@
+<view class="i-class tag-mian" hover-class="none" hover-stop-propagation="false" bind:tap="handleClick">
+    <slot></slot>
+    <view class="tag-wrap {{dot&&value==0?'tag-wrap_dot':''}}">
+        <view class="i-class-text tag-text">
+            <slot name="text" wx:if='{{!value&&!dot}}'></slot>
+            {{value!=0?value:''}}
+        </view>
+    </view>
+</view>

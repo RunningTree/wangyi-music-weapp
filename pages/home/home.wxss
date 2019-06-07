@@ -1,0 +1,10 @@
+/* pages/home/home.wxss */
+page{
+    height: 100%;
+}
+.ceshi{
+    background-color: #ddd;
+    width: 50rpx;
+    height: 50rpx;
+    margin: 20rpx;
+}

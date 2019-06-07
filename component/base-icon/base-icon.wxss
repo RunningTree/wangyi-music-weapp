@@ -1,0 +1,151 @@
+/* components/avatar-text /avatar-text.wxss */
+@import '../../iconfonts/base-icon/iconfont.wxss';
+
+.icon-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.icon-block {
+  position: relative;
+  margin: 12rpx;
+}
+
+.icon-block .icon-img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.icon-block .icon-font{
+  width: 72rpx;
+  height: 72rpx;
+}
+
+.icon-block .icon-text{
+  background-color: #31b0d5;
+  color:#fff;
+  text-align: center;
+}
+
+
+.icon-block .icon-top-tag{
+  position: absolute;
+  top:-32rpx;
+  right: 15rpx;
+}
+
+.icon-block .icon-bottom-tag{
+  position: absolute;
+  bottom: -2rpx;
+  right: 15rpx;
+}
+
+.icon-info-block .info-text{
+  font-size:33rpx;
+  color: #333;
+}
+
+.icon-info-block .info-tip{
+  font-size:30rpx;
+  color: #888;
+}
+
+.icon-info-block .info-assist{
+  font-size:27rpx;
+  color: #b2b2b2;
+}
+
+/* ===flex=== */
+.flex-cc{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  /* ======= */
+
+/* =====mold== */
+/* [circle,square] */
+.icon-mold-circle{
+  border-radius: 50%;
+}
+.icon-mold-square{
+  border-radius: 10rpx;
+}
+/* =========== */
+
+
+/* ===size=== */
+/* mini,small,default,large,bigger */
+.icon-size-mini {
+  width: 52rpx;
+  height: 52rpx;
+  font-size:27rpx;
+}
+
+
+.icon-size-small {
+  width: 72rpx;
+  height: 72rpx;
+  font-size: 30rpx;
+}
+
+.icon-size-default {
+  width: 92rpx;
+  height:92rpx;
+  font-size: 33rpx;
+}
+
+.icon-size-large {
+  width: 112rpx;
+  height: 112rpx;
+  font-size: 39rpx;
+}
+
+.icon-size-bigger {
+  width: 132rpx;
+  height: 132rpx;
+  font-size: 42rpx;
+}
+
+
+.icon-iconfont-size-mini{
+
+  font-size: 32rpx;
+}
+.icon-iconfont-size-small{
+
+  font-size: 52rpx;
+}
+.icon-iconfont-size-default{
+  font-size: 72rpx;
+}
+.icon-iconfont-size-large{
+  font-size: 92rpx;
+}
+.icon-iconfont-size-bigger{
+  font-size: 112rpx;
+}
+/* ====== */
+
+/* ===layout=== */
+
+.icon-wrap-layout-left {
+  text-align: left;
+  flex-direction: row;
+}
+
+.icon-wrap-layout-right {
+  text-align: right;
+  flex-direction: row-reverse;
+}
+
+.icon-wrap-layout-top {
+  text-align: center;
+  flex-direction: column;
+}
+
+.icon-wrap-layout-bottom {
+  text-align: center;
+  flex-direction: column-reverse;
+}

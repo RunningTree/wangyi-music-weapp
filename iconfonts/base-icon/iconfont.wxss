@@ -1,0 +1,162 @@
+@import './stylesheet.wxss';
+
+.iconfont {
+  font-family: "iconfont" !important;
+  /* font-size: 16px; */
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wybofang:before {
+  content: "\e600";
+}
+
+.wyyinleyinpin:before {
+  content: "\e6e5";
+}
+
+.wydiantai:before {
+  content: "\e7e5";
+}
+
+.wybk-dot:before {
+  content: "\e60d";
+}
+
+.wygangqin:before {
+  content: "\e612";
+}
+
+.wyxiazai7:before {
+  content: "\e634";
+}
+
+.wytinggeshiqu:before {
+  content: "\e64f";
+}
+
+.wytinggeshiqu40x40:before {
+  content: "\e6e8";
+}
+
+.wywodeshoucang:before {
+  content: "\e65f";
+}
+
+.wysousuo:before {
+  content: "\e696";
+}
+
+.wyicon-system-fn-skin:before {
+  content: "\e685";
+}
+
+.wyxindong:before {
+  content: "\e601";
+}
+
+.wypaobu:before {
+  content: "\e602";
+}
+
+.wygouwuche:before {
+  content: "\e73c";
+}
+
+.wyicon-juzhen:before {
+  content: "\e686";
+}
+
+.wydiantai1:before {
+  content: "\e604";
+}
+
+.wygangqin1:before {
+  content: "\e75b";
+}
+
+.wydownload:before {
+  content: "\e607";
+}
+
+.wygeren:before {
+  content: "\e64a";
+}
+
+.wypifu:before {
+  content: "\e60c";
+}
+
+.wyintegral:before {
+  content: "\e61b";
+}
+
+.wyyule_yinlediantai:before {
+  content: "\e63c";
+}
+
+.wydingwei:before {
+  content: "\e647";
+}
+
+.wyxin:before {
+  content: "\e611";
+}
+
+.wytinggeshiqu1:before {
+  content: "\e603";
+}
+
+.wydiantai2:before {
+  content: "\e605";
+}
+
+.wypiao:before {
+  content: "\e670";
+}
+
+.wyfen--:before {
+  content: "\e630";
+}
+
+.wywodeshoucang1:before {
+  content: "\e62d";
+}
+
+.wyyueliang:before {
+  content: "\e638";
+}
+
+.wyliebiao:before {
+  content: "\e649";
+}
+
+.wybqxin:before {
+  content: "\e606";
+}
+
+.wyyinger:before {
+  content: "\e687";
+}
+
+.wyzuihouxintiao:before {
+  content: "\e6d5";
+}
+
+.wypaobu1:before {
+  content: "\e608";
+}
+
+.wy-gangqin:before {
+  content: "\e681";
+}
+
+.wygouwuche1:before {
+  content: "\e60e";
+}
+
+.wyyule_yinlediantai1:before {
+  content: "\e66b";
+}
+
