@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "ui-tabs":"../../component/ui-tab/ui-tabs/ui-tabs",
+    "ui-tab":"../../component/ui-tab/ui-tab/ui-tab",
+    "ui-icon-label":"../../component/ui-tab/ui-icon-label/ui-icon-label",
+    "ui-icon":"../../component/ui-icon/ui-icon"
+  }
+}

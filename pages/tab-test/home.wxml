@@ -1,0 +1,29 @@
+<view style="height:50%;">
+    <ui-tabs current="1">
+        <view slot="nav-left">
+            <view style="width:50rpx;">
+                <ui-icon src=""></ui-icon>
+            </view>
+            
+        </view>
+        <ui-tab key="1" title="标题一"></ui-tab>
+        <ui-tab key="2" title="标题二"></ui-tab>
+        <ui-tab key="3" title="标题三"></ui-tab>
+        <ui-tab key="4" title="标题四"></ui-tab>
+        <ui-tab key="4" title="标题四"></ui-tab>
+        <view slot="nav-right">
+             <view style="width:50rpx;">
+                <ui-icon src=""></ui-icon>
+            </view>
+        </view>
+    </ui-tabs>
+</view>
+
+
+<scroll-view class="nav-title-scroll" scroll-x="{{true}}">
+                <block wx:for="{{5}}">
+                    <view class="nav-title">
+                        选项{{index}}
+                    </view>
+                </block>
+            </scroll-view>

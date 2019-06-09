@@ -1,6 +1,8 @@
 {
   "pages": [
+    "pages/tab-test/home",
     "pages/home/home"
+    
   ],
   "window": {
     "backgroundTextStyle": "light",

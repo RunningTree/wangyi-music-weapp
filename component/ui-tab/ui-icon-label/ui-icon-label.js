@@ -1,4 +1,4 @@
-// component/test-tab-item/test-tab-item.js
+// component/ui-tab/ui-icon-label/ui-icon-label.js
 Component({
   /**
    * 组件的属性列表

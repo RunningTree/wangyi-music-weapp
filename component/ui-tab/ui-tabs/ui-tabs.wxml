@@ -1,0 +1,31 @@
+<view class="tab-wrap">
+    <view class="tab-label-block">
+        <view class="nav-left-block">
+            <slot name="nav-left" />
+        </view>
+        <view class="nav-center-block">
+            <scroll-view class="nav-title nav-title-scroll" scroll-x="{{true}}" wx:if="{{titleScroll}}">
+                <block wx:for="{{tabs}}">
+                    <view class="title">
+                        {{item.title}}
+                    </view>
+                </block>
+            </scroll-view>
+            <view class="nav-title" wx:else>
+                <block wx:for="{{tabs}}">
+                    <view class="title">
+                        {{item.title}}
+                    </view>
+                </block>
+            </view>
+        </view>
+        <view class="nav-right-block">
+            <slot name="nav-right" />
+        </view>
+    </view>
+    <view class="tab-panel" style="height:100%;">
+        <scroll-view class="tab-panel-scroll" scroll-x="true">
+            <slot />
+        </scroll-view>
+    </view>
+</view>

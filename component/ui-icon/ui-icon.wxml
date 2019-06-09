@@ -21,7 +21,7 @@
 
     <view class="icon-top-tag">
          <slot name="top-tag"></slot>
-      <tag wx:if='{{count}}' value='{{count}}'></tag>
+      <ui-tag wx:if='{{count}}' value='{{count}}'></ui-tag>
     </view>
 
     <view class="icon-bottom-tag">

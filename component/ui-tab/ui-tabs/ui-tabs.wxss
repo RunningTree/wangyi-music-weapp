@@ -1,0 +1,42 @@
+.tab-wrap{
+  height: 100%;
+  width: 100%;
+}
+
+.tab-label-block{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  width: 100%;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+
+.tab-label-block .nav-center-block{
+  max-width: 80%;
+  flex-grow: 1;
+}
+
+.nav-center-block .nav-title{
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-center-block .nav-title-scroll{
+  width: 100%;
+  /* overflow-x: auto; */
+  white-space: nowrap;
+}
+
+.nav-title-scroll .title{
+  flex: 1;
+  display: inline-block;
+  padding: 0 40rpx;
+}
+
+
+.tab-panel-scroll{
+  width: 100%;
+  white-space: nowrap;
+  height: 100%;
+}

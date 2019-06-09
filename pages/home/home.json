@@ -1,7 +1,5 @@
 {
   "usingComponents": {
-    "tag":"/component/tag/tag",
-    "base-icon":"/component/base-icon/base-icon",
-    "test-tab-item":"/component/test-tab-item/test-tab-item"
+    
   }
 }
